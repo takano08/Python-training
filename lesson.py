@@ -1,2 +1,6 @@
-print('Hi', 'Mike', sep=',', end='\n')
-print('Hi', 'Mike', sep=',', end='\n')
+import math
+
+result = math.sqrt(25)
+print(result)
+
+print(help(math))
