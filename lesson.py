@@ -1,6 +1,2 @@
-num = 1
-name = 'Mike'
-
-num = name
-
-print(num, type(num))
+print('Hi', 'Mike', sep=',', end='\n')
+print('Hi', 'Mike', sep=',', end='\n')
