@@ -1,28 +1,16 @@
-s = 'My name is Mike. Hi Mike.'
-print(s)
-is_start =s.startswith('My')
-print(is_start)
-is_start =s.startswith('X')
-print(is_start)
+r = [1,2,3,4,5,1,2,3]
+print(r.index(3,3))
 
-print("#################")
+print(r.count(3))
+if 5 in r:
+    print('exist')
 
-print(s.find('Mike'))
-print(s.rfind('Mike'))
-print(s.count('Mike'))
-print(s.capitalize())
-print(s.title())
-print(s.upper())
-print(s.lower())
-print(s.replace('Mike', 'Nancy'))
+if 100 in r:
+    print('exist')
 
-a ='a'
-print(f'a is {a}')
-
-x,y,z = 1,2,3
-print(f'a is {x}, {y}, {z}')
-print(f'a is {z}, {y}, {x}')
-
-name = 'Jun'
-family = 'Sakai'
-print(f'My name is {name} {family}. Watashi ha {family} {name}')
+r.sort()
+print(r)
+r.sort(reverse=True)
+print(r)
+r.reverse()
+print(r)
