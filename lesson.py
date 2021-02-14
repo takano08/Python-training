@@ -14,3 +14,10 @@ r.sort(reverse=True)
 print(r)
 r.reverse()
 print(r)
+
+s = 'My name is Mike'
+to_split = s.split(' ')
+print(to_split)
+
+x = ' '.join(to_split)
+print(x)
