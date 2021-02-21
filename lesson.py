@@ -6,3 +6,12 @@ print(x,y)
 
 x,y = 10,20
 print(x,y)
+
+min, max = 0,100
+print(min,max)
+
+a = 100
+b = 200
+print(a,b)
+a,b = b,a
+print(a,b)
