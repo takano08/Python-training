@@ -1,8 +1,11 @@
-chose_from_two = ('A','B','C')
+x = {'a':1}
+y = x
+y['a'] = 1000
+print(x)
+print(y)
 
-answer =[]
-answer.append('A')
-answer.append('C')
-
-print(chose_from_two)
-print(answer)
+x = {'a' :1}
+y = x.copy()
+y['a'] = 1000
+print(x)
+print(y)
