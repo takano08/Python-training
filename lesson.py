@@ -1,7 +1,7 @@
-fruits = {
-    'apple': 100,
-    'banana': 200,
-    'orange': 300,
-}
+my_friends = {'A','C','D'}
+A_friends = {'B','D','E','F'}
+print(my_friends & A_friends)
 
-print(fruits['apple'])
+f = ['apple','banana','apple','banana']
+kind = set(f)
+print(kind)
