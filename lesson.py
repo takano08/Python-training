@@ -1,11 +1,8 @@
-print('XXXXXXX')
-# test
-print('XXXXXX')
+s = 'aaaaaaa' \
+    + 'bbbbbb'
+print(s)
 
-print('XXXXXXX')
-"""
-test
-test
-test
+x = 1+1+1+1+1 \
+    +1+1+1
 
-"""
+print(x)
