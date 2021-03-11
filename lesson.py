@@ -1,13 +1,18 @@
-s = 'aaaaaaa' \
-    + 'bbbbbb'
-print(s)
+x = 10
 
-x = 1+1+1+1+1 \
-    +1+1+1
+if x < 0:
+    print('negative')
+elif x == 0:
+    print('zero')
+elif x == 10:
+    print('10')
+else:
+    print('positive')
 
-print(x)
+a = 5
+b = 10
 
-y = (1+1+1+1+1
-    +1+1+1)
-
-print(y)
+if a > 0:
+    print('a is positive')
+    if b > 0:
+        print('b is positive')
