@@ -5,3 +5,12 @@ if x in y:
 
 if 100 not in y:
     print('not in')
+
+a = 1
+b = 2
+
+if not a == b:
+    print('Not equal')
+
+if not a != b:
+    print('Not equal')
