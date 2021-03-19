@@ -1,4 +1,5 @@
-is_empty = None
+count = 0
 
-if is_empty == None:
-    print('None')
+while count < 5:
+    print(count)
+    count += 1
