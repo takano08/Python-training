@@ -1,11 +1,7 @@
-some_list = [1,2,3,4,5]
-
-for i in some_list:
-    print(i)
-
-for s in 'abcde':
-    if s == 'c':
-        continue
-    print(s)
-
-
+for fruit in ['apple','banana','orange']:
+    if fruit == 'banana':
+        print('stop eating')
+        break
+    print(fruit)
+else:
+    print('I ate all')
