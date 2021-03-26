@@ -1,7 +1,5 @@
-for fruit in ['apple','banana','orange']:
-    if fruit == 'banana':
-        print('stop eating')
-        break
-    print(fruit)
-else:
-    print('I ate all')
+for i in range(2,10,3):
+    print(i)
+
+for i in range(10):
+    print(i,'hello')
