@@ -1,2 +1,6 @@
-for i,fruit in enumerate (['apple','banana','orange']):
-    print(i,fruit)
+days = ['Mon','Tue','Wen']
+fruits = ['apple','banana','orange']
+drinks = ['coffee','tea','beer']
+
+for days,fruits,drinks in zip(days,fruits,drinks):
+    print(days,fruits,drinks)
