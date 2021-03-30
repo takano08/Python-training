@@ -1,4 +1,15 @@
-d = {'x':100,'y':200}
+def say_something():
+    s = 'hi'
+    return s
+result = say_something()
+print(result)
 
-for k,v in d.items():
-    print(k,':',v)
+def what_is_this(color):
+    if color == 'red':
+        return 'tomato'
+    elif color == 'green':
+        return 'green pepper'
+    else:
+        return "I don't know"
+result = what_is_this('red')
+print(result)
