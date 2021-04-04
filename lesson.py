@@ -1,10 +1,7 @@
-def test_func(x, l=[]):
-    l.append(x)
-    return l
+def say_something(word,*args):
+    print('word=',word)
+    for arg in args:
+        print(arg)
 
-# y = [1,2,3]
-# r = test_func(100,y)
-# print(r)
-
-r = test_func(100)
-print(r)
+t=('Mike','Nancy')
+say_something('Hi',*t)
