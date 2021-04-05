@@ -1,7 +1,6 @@
-def say_something(word,*args):
-    print('word=',word)
-    for arg in args:
-        print(arg)
+def menu(food,*args,**kwargs):
+    print(food)
+    print(args)
+    print(kwargs)
 
-t=('Mike','Nancy')
-say_something('Hi',*t)
+menu('banana','apple','orange',entree='beef',drink='coffee')
